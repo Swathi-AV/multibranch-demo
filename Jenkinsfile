@@ -11,6 +11,7 @@ pipeline{
             }
         }
         stage("Deploy Staging"){
+            // This is staging stage
             when {
                 branch 'staging'
             }
